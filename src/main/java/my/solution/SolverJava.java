@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution<Key> {
+public class SolverJava<Key> {
     public Map<Key, Integer> getFrequencyStatistics(Collection<Key> source) {
         final HashMap<Key, Integer> statistics = new HashMap<>();
 
